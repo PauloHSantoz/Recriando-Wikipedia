@@ -2,17 +2,58 @@ body, html {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    white-space: pnowrap;
 }
+
 ul { list-style: none; padding-left: 5px; }
+
 a { color:rgb(0, 0, 255); text-decoration: none;}
 
+h2 {
+    background-color: rgb(66, 167, 66);
+    text-align: center;
+}
+
+h3 {
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgb(66,167,66);
+}
+ 
+header {
+    background-image: linear-gradient(rgba(2, 29, 146, 0.6), rgba(95, 114, 201, 0.6), rgba(2, 29, 146, 0.6)), url(../imagens/82aa5cddc0cad06cbb0434b086007f93.jpg);
+    background-size: cover;
+    background-repeat: round;
+    height: auto;
+    padding-top: 40px;
+    border-bottom: 1px solid;
+}
+
+.logo {
+    height: 120px;
+    width: 150px;
+    padding: 16px ;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
 .bar {
-    background-color: #1900ffe3;
-    padding:15px;
+    padding: 10px;
     display: flex;
     border-radius: 2px;
-    justify-content: end;
+    justify-content: end; 
 }
+
+.bar button, input {
+   font-weight: bold;
+
+}
+
 .content {
     max-width: 1440px;
     margin: auto;
@@ -26,20 +67,22 @@ a { color:rgb(0, 0, 255); text-decoration: none;}
     background-color: rgba(204, 207, 255, 0.397);
     
 }
+
 .main {
-    background-color: rgb(204, 207, 255);
+    background-color: rgba(2, 29, 146, 0.3);
 }
 
-.footer {
-    
-    height: 150px ;
-    border-top: solid 2px #1900ffe3;
-    background-color: #ffffffe3;
-    color:black;  
+footer {
+    background-image: Linear-gradient(rgba(2, 29, 146, 0.6), rgba(95, 114, 201, 0.6), rgba(2, 29, 146, 0.6));
     text-align: center;
+    height: 100px;
+    padding: 1px;
+    border-top: 1px solid;
 }
+
 footer li {
-    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .anchors {
@@ -48,44 +91,55 @@ footer li {
     padding-left: 15px;
     background-color: #cdcdcd98;
 }
+
 .sidebar {
     border-bottom: solid 1px #cdcdcd98;
     border-right: solid 1px #cdcdcd98;
     background-color: #cdcdcd98;
-    
 }
+
 .figure {
     text-align: center;
-    
 }
+
+.figure figcaption, details {
+    font-weight: bold;
+}
+
 .img {
     width: 400px;
   
 }
+
 .imgSenna {
     width: 33.33%;
     float: left;
     padding: 15px;
     margin: auto;
 }
+
 .row {
     content: "";
     display: table;
     clear: both;
 }
+
 .iframe {
     margin-left: 12%;
 }
+
 .details {
     background-color: rgb(195, 243, 163);
     display: inline;
 }
+
 .btn {
     background-color: #50c6e4;
     padding: 7px 12px;
     border-radius: 15px;
     border: 1px; 
 }
+
 .btn:hover{
     background-color:  #50c6e4b0;
     color: black;
